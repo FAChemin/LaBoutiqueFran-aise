@@ -1,0 +1,78 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1705998946857,
+        "children": [],
+        "todo": {
+          "content": "Première tâche",
+          "id": 1705998946857,
+          "level": "default",
+          "done": true,
+          "start": 1705998946857,
+          "focus": false,
+          "end": 1705998956182
+        }
+      },
+      {
+        "key": 1705998960045,
+        "children": [],
+        "todo": {
+          "content": "Deuxième tâche",
+          "id": 1705998960045,
+          "level": "danger",
+          "done": false,
+          "start": 1705998960045
+        }
+      },
+      {
+        "key": 1705999247569,
+        "children": [],
+        "todo": {
+          "content": "Troisième tâche",
+          "id": 1705999247569,
+          "level": "danger",
+          "done": false,
+          "start": 1705999247569
+        }
+      },
+      {
+        "key": 1705999254928,
+        "children": [],
+        "todo": {
+          "content": "Quatiètre tâche",
+          "id": 1705999254928,
+          "level": "warning",
+          "done": false,
+          "start": 1705999254928
+        }
+      },
+      {
+        "key": 1705999268058,
+        "children": [],
+        "todo": {
+          "content": "Cinquième tâche",
+          "id": 1705999268058,
+          "level": "success",
+          "done": false,
+          "start": 1705999268058
+        }
+      }
+    ],
+    "expandKeys": [
+      1705998960045
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "timelines": [],
+    "showLine": false,
+    "playFontSize": 24,
+    "title": "todo",
+    "autoSort": false,
+    "showEndTime": false,
+    "simpleMode": false,
+    "lang": "en",
+    "version": "1705999325849"
+  }
+}
