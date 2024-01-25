@@ -27,7 +27,7 @@
                 <td>{{product.product.name}}<br>
                     <small>{{product.product.subtitle}}</small></td>
                 <td>
-                <a href="{{path('delete_to_cart', {'id': product.product.id})}}"><img src={{'assets/img/moins.png'}} alt="Retirer une quantité à mon produit" height="8px"></a>    
+                <a href="{{path('decrease_to_cart', {'id': product.product.id})}}"><img src={{'assets/img/moins.png'}} alt="Retirer une quantité à mon produit" height="8px"></a>    
                 {{product.quantity}}    
                 <a href="{{path('add_to_cart', {'id': product.product.id})}}"><img src={{'assets/img/plus.png'}} alt="Ajouter une quantité à mon produit" height="8px"></a>
                 </td>
@@ -51,6 +51,6 @@
     </div>
     {% else %}
     <hr>
-    <b>Votre panier est vide</b>
+    <b><p class="text-center">Votre panier est vide</p></b>
     {% endif %}
 {% endblock %}
